@@ -1,0 +1,171 @@
+nav {
+  display: block;
+  width: 100vw;
+  float: left;
+  background-color: #ffffff;
+}
+
+.a {
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Times new roman;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.logo {
+  float: left;
+  margin-left: 5px;
+}
+
+.logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo1 {
+  float: right;
+}
+
+.logo1a {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.logo1a img {
+  margin-top: 6px;
+  width: 35px;
+  height: 35px;
+}
+
+.logo1b {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.logo1b img {
+  margin-top: 6px;
+  width: 35px;
+  height: 35px;
+}
+
+.b {
+  display: inline-block;
+}
+
+.b p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo2 {
+  float: right;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo2 img {
+  width: 25px;
+  height: 25px;
+}
+
+.c {
+  clear: both;
+}
+
+.c1 {
+  float: left;
+  margin-right: 20px;
+  font-size: 22px;
+  display: flex;
+  align-content: center;
+  line-height: 2;
+}
+.c .c1 a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.c2 input {
+  float: left;
+  border-bottom: 1px solid;
+  width: 300px;
+  height: 29px;
+}
+
+.c2 button {
+  float: center;
+  border: groove;
+  width: 150px;
+  height: 30px;
+}
+
+.c3 button {
+  float: right;
+  width: 100px;
+  height: 29px;
+  background-color: #0000ff;
+  border-color: blue;
+  color: #ffffff;
+}
+
+/*nav a:hover {
+  background-color: #f5deb3;
+}*/
+
+table {
+  font-family: Arial;
+  border-collapse: #ffffff;
+  width: 100%;
+}
+
+th {
+  color: #ffffff;
+  background-color: #0000ff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #808080;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.btn btn-primary {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+.trash {
+  background-color: red;
+  color: #ffffff;
+  padding: 6px 12px;
+  border: 1px solid red;
+}
+
+.fa-sort {
+  float: right;
+}
+.modal-body-1 p {
+  float: left;
+}
+.modal-body-1 input {
+  border: 1px solid gray;
+  color: gray;
+  float: left;
+  margin-left: 130px;
+  width: 270px;
+  border-radius: 5px;
+}

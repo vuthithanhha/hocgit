@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="E:\Frontend\test.js" language="javascript"></script>
+</head>
+
+<body>
+    <h2>Chọn giới tính</h2>
+    <p>In ra thông báo khi giới tính được thay đổi </p>
+    <select id="gender" onchange="genderChanged(this)">
+        <option value=""> -- Chọn -- </option>
+        <option value="nam">Nam</option>
+        <option value="nu"> Nữ </option>
+    </select>
+    <p style="color: red" id="show_message"></p>
+    <input type="button" onclick="clearAlert()" value="Clear" />
+    <div oncopy="show_message()">day la con mickey</div>
+    a: <input type="text" id="a" value="" onkeyup="tinh()" />
+    b: <input type="text" id="b" value="" onkeyup="tinh()" />
+    Kết quả: <input type="text" id="result" value="" />
+    <ul>
+        <li><a href="#" id="show1">Tin công nghệ</a></li>
+        <li><a href="#">Tin trong nước</a></li>
+        <li><a href="#" id="show2">Tin thời sự</a></li>
+    </ul>
+    <input type="text" value="Freetuts.net" id="website" />
+    <p>Username: <input type="text" value="" id="username" /> <br /></p>
+    <p>Username: <input type="password" value="" id="password" /> <br /></p>
+    <div id="message"></div>
+    <input type="button" value="Login" onclick="validate()" />
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpa)moFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script> -->
+</body>
+
+</html>
